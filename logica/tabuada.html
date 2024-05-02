@@ -1,0 +1,26 @@
+<meta charset="utf-8">
+
+<script>
+	
+	function pulaLinha() {
+
+		document.write("<br>");
+	}
+
+	function mostra(frase) {
+
+		document.write(frase);
+		pulaLinha();
+	}
+
+	
+	var numero = prompt("Informe um número para calcular a tabuada: ");
+
+	for(var multiplicador = 1 ; multiplicador <= 10 ; multiplicador++) {
+		mostra(numero * multiplicador);
+	}
+
+	mostra("FIM");
+	
+
+</script>	
